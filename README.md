@@ -49,9 +49,6 @@ This will generate a `calculator.exe` in the same directory.
 
 <img src="Screenshot\Screenshot 2025-08-06 222705.png" alt="Calculator Screenshot" width="300" height="400">
 
-
----
-
 ---
 
 ## Win32 Concepts Used
