@@ -1,0 +1,38 @@
+# Calculator (Win32 API)
+
+A simple, modern-looking calculator application built with the native Win32 API and C. This project serves as a practical example of creating a graphical user interface (GUI) from scratch without relying on higher-level frameworks like .NET or MFC. It demonstrates fundamental Win32 concepts such as window creation, message handling, and custom control styling.
+
+## Features
+
+- **Standard Arithmetic Operations**:
+    - Addition (`+`)
+    - Subtraction (`-`)
+    - Multiplication (`*`)
+    - Division (`/`)
+    - Modulus (`%`)
+- **Responsive Layout**: The button layout is calculated programmatically for a consistent look.
+- **Custom Styling**: Uses GDI (Graphics Device Interface) to customize the colors of the display and buttons.
+- **Lightweight Executable**: Because it's built directly on the Win32 API, the final application is small and fast with no external dependencies.
+
+## Building the Project
+
+This project is designed to be compiled with a C compiler like GCC (via MinGW on Windows) or the Microsoft Visual C compiler.
+
+### Prerequisites
+
+- A C compiler (e.g., MinGW-w64 for GCC).
+- The Windows SDK (usually included with compilers targeting Windows).
+
+### Compilation with GCC (MinGW)
+
+To compile the project from the command line, navigate to the directory containing the source code and run the following command:
+
+```bash
+gcc calculator.c -o calculator.exe -lgdi32
+```
+
+### Screenshot
+
+Here is a preview of the calculator application:
+
+<img src="Screenshot\Screenshot 2025-08-06 222705.png" alt="Calculator Screenshot" width="300" height="400">
